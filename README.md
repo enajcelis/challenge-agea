@@ -16,7 +16,7 @@ La página usa el sistema de cuadrículas o grid de **Bootstrap v4.1.3** para qu
 
 Se incluye la librería **lazysizes** para lograr el lazy load de imágenes, en los casos en que el navegador no lo soporte. En caso contrario, se usa el lazy-loading nativo del navegador. La implementación se encuentra en **js/lazy-load.js**.
 
-Los eventos para mostrar y reproducr el video de Youtube son logrados mediante el uso de JavaScript, definidos en el archivo **js/player.js**. 
+Los eventos para mostrar y reproducir el video de Youtube son logrados mediante el uso de JavaScript, definidos en el archivo **js/player.js**. 
 
 Se realiza la petición post requerida usando el método post() de **jQuery**. La URL usada para ello es: [https://swapi.dev/api/people/2/](https://swapi.dev/api/). Cabe destacar, que genera error debido a que el método post no es el esperado por éste API. Según lo establecido en la evaluación, no se espera que funcione esta petición post.
 
