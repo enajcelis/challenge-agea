@@ -8,6 +8,6 @@
     // Importamos dinámicamente la libreria `lazysizes`
     const lazySizesLib = await import("/lazysizes.min.js");
     // Se inicia lazysizes (lee el atributo `data-src` y la clase `lazyload`)
-    lazySizes.init();
+    lazySizesLib.init();
   }
 })();
