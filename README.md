@@ -20,7 +20,7 @@ Los eventos para mostrar y reproducir el video de Youtube son logrados mediante 
 
 Se realiza la petición post requerida usando el método post() de **jQuery**. La URL usada para ello es: [https://swapi.dev/api/people/2/](https://swapi.dev/api/). Cabe destacar, que genera error debido a que el método post no es el esperado por éste API. Según lo establecido en la evaluación, no se espera que funcione esta petición post.
 
-El script de trackeo de usuarios se encuentra en **js/tracking** (en adición de la petición post anterior). Aquí se usa la librería **Fingerprintjs2** para la generación del hash de los usuarios que visitan la página. El hash es almacenado en el Local Storage, bajo el key hash.
+El script de trackeo de usuarios se encuentra en **js/tracking** (en adición de la petición post anterior). Aquí se usa la librería **Fingerprintjs2** para la generación del hash de los usuarios que visitan la página. El hash es almacenado en el Local Storage, bajo el key hash. El script se ejecuta al realizar la carga de la página.
 
 Los estilos propios de la página se definen en **css/main.css**.
 
